@@ -12,11 +12,9 @@ public class Cronometro {
         System.out.println("Cronômetro:");
         for (int i = 0; i <= limite; i++) { // começa em 0 e vai até o limite
             System.out.println(i + " segundos");
-
-            // Caso queira simular o tempo real, descomente a linha abaixo:
-            // try { Thread.sleep(1000); } catch (InterruptedException e) {}
         }
 
         sc.close(); // Fecha o Scanner
     }
 }
+
